@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #ccb6b5;
 }
 
 header {
@@ -9,7 +10,12 @@ header {
     flex-direction: column;
     align-items: center;
   }
-  
+
+header p {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
   h1 {
     font-size: 2em;
     font-weight: bold;
@@ -20,6 +26,8 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    border-width: 2px;
+    border-style:ridge;
   }
   
   ul {
@@ -35,7 +43,7 @@ header {
     font-size: 1.2em;
   }
   
-  a {
+  header nav a {
     text-decoration: none;
     color: black;
   }
@@ -46,6 +54,8 @@ header {
   }
   
   #portrait {
+    border-style: solid;
+    border-width: 1px;
     border-radius: 50%;
     width: 10%;
     height: auto;
@@ -56,12 +66,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
-  .work {
-    font-size: 2em;
+
+  article h3 {
+    font-size: 50px;
     text-align: center;
   }
-  
+
   section {
     width: 25%;
     text-align: center;
@@ -90,26 +100,45 @@ header {
   li {
     font-size: 1.2em;
   }
+  article img {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin:20px;
+  }
+  
+  article p {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: smaller;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        padding-bottom: 50px;
+  }
 #Horiseon {
-    width: 100%;
+    width: 110%;
     height: auto;
 }
   #car {
-    width: 60%;
+    width: 80%;
     height: auto;
   }
 
   #calculator {
-    width: 55%;
+    width: 80%;
     height: auto;
   }
 
   #game {
-    width:50%;
+    width: 60%;
     height: auto;
   }
 
   #music {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
