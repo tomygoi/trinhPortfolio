@@ -6,7 +6,7 @@ This project was done as the our first challenge to be performed from scratch. T
 
 ##Usage 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The webpage can be accessed via [https://tomygoi.github.io/trinhPortfolio/]. The navigation buttons at the center-top of the webpage will redirect to the corresponding sections of the page. 
+The webpage can be accessed via [https://tomygoi.github.io/trinhPortfolio/]. The navigation buttons at the center-top of the webpage will redirect to the corresponding sections of the page. Clicking on the Horiseon Webpage image (the largest image) will redirect to the first challenge project which was to refactor the webpage to be more accessible for all users. 
 
 
 
