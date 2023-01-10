@@ -43,7 +43,7 @@ header p {
     font-size: 1.2em;
   }
   
-  a {
+  header nav a {
     text-decoration: none;
     color: black;
   }
@@ -120,7 +120,7 @@ header p {
         padding-bottom: 50px;
   }
 #Horiseon {
-    width: 100%;
+    width: 110%;
     height: auto;
 }
   #car {
