@@ -4,11 +4,112 @@
     margin: 0;
 }
 
-body {
-    background-color: #7e9a9a;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .aboutMe {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  #portrait {
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+  }
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .work {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  section {
+    width: 25%;
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactMe {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2em;
+  }
+#Horiseon {
+    width: 100%;
+    height: auto;
 }
+  #car {
+    width: 60%;
+    height: auto;
+  }
 
-.portrait {
-    max-width: 5%;
-    max-height: auto;
-}
+  #calculator {
+    width: 55%;
+    height: auto;
+  }
+
+  #game {
+    width:50%;
+    height: auto;
+  }
+
+  #music {
+    width: 80%;
+    height: auto;
+  }
